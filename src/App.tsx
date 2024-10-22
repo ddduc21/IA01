@@ -122,7 +122,7 @@ export default function Game() {
 			const pos = " (" + ((squares.move - squares.move % 3) / 3 + 1) + ", " + (squares.move % 3 + 1) + ")"; 
 			
 			if (move === currentMove) {
-				description = 'Current move' + pos;
+				description = 'You are at move #' + move + " " + pos;
 			}
 			else {
 				description = 'Go to move #' + move + pos;
